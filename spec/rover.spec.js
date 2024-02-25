@@ -111,7 +111,7 @@ describe("Rover class", function() { //test 7
     expect(response.results.length).toEqual(1);
     // Verify that the result indicates completion
     expect(response.results[0].completed).toEqual(true);
-    // Verify that the rover's position is updated to the new position
+    // Verify that the rover's position is updated to the NEW position
     expect(rover.position).toEqual(600);
   });
 });
